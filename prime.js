@@ -1,22 +1,24 @@
 
-var num=13;
+
+var num=16;
 
 var a=Math.sqrt(num);
 
+
 var cnt=0;
 
-       for(i=2;i<=a;i++){
+       for(i=1;i<=num;i++){
 
-             if(num%i!=0){
+             if(num%i==0){
                   cnt++;
                          }
+}
+           
 
-           }
-
-if(cnt==0&&num!=1)
+if(cnt==2)
 {
-console.log(num,"is prime);
+console.log(num,"is prime");
 }
 
 else
-console.log(num,"isn't prime);
+{console.log(num,"isn't prime");}
