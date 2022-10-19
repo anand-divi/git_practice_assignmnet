@@ -4,7 +4,7 @@ var str="ababa";
 
 var ans="";
 
-for(i=str.length;i>=0;i++){
+for(  var i=str.length-1;i>=0;i--){
 
 ans+=str[i];
 
@@ -15,4 +15,4 @@ console.log(str,"is palindrome");
 }
 
 else
-console.log(str,"isn't palindrome");
+{console.log(str,"isn't palindrome");}
