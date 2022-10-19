@@ -11,8 +11,8 @@ ans+=str[i];
 }
 
 if(str==ans){
-console.log(str,"is palindrome);
+console.log(str,"is palindrome");
 }
 
 else
-console.log(str,"isn't palindrome);
+console.log(str,"isn't palindrome");

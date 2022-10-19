@@ -15,8 +15,8 @@ var cnt=0;
 
 if(cnt==0&&num!=1)
 {
-console.log(num,"is prime);
+console.log(num,"is prime");
 }
 
 else
-console.log(num,"isn't prime);
+console.log(num,"isn't prime");
